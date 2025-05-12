@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "generatedAt": "2025-05-12T01:56:10.400Z",
+    "tasksAnalyzed": 12,
+    "thresholdScore": 5,
+    "projectName": "Taskmaster",
+    "usedResearch": true
+  },
+  "complexityAnalysis": [
+    {
+      "taskId": 1,
+      "taskTitle": "HWP → MD 변환기 개발",
+      "complexityScore": 7,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Break down the HWP to Markdown converter development into detailed subtasks, including evaluation of open-source converters, implementation of wrapper classes, handling various HWP formats, logging mechanisms, and validation processes. Include specific technical requirements and acceptance criteria for each subtask.",
+      "reasoning": "This task involves complex file format conversion with multiple technical challenges: evaluating existing libraries, handling various document formats, implementing error handling, and ensuring conversion accuracy. The code structure is already well-defined but implementation details need further breakdown."
+    },
+    {
+      "taskId": 2,
+      "taskTitle": "리소스 추출기 개발",
+      "complexityScore": 8,
+      "recommendedSubtasks": 6,
+      "expansionPrompt": "Divide the resource extractor development into detailed subtasks covering equation extraction with LaTeX conversion, table extraction with CSV/JSON output, image extraction and optimization, resource hashing mechanisms, metadata generation, and integration with the main conversion pipeline. Include technical specifications and testing criteria for each resource type.",
+      "reasoning": "This task requires handling multiple resource types (equations, tables, images) with different extraction methods and output formats. Each resource type presents unique technical challenges, and the hashing mechanism for deduplication adds another layer of complexity. The integration with the main pipeline also needs careful planning."
+    },
+    {
+      "taskId": 3,
+      "taskTitle": "MD → JSON 파서 개발",
+      "complexityScore": 7,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Create detailed subtasks for the Markdown to JSON parser development, including parsing logic for different Markdown elements, document and paragraph ID generation rules, resource reference linking, JSON schema validation implementation, and metadata extraction processes. Include specific parsing rules and output format specifications.",
+      "reasoning": "This task involves complex parsing logic, ID generation systems, and linking with previously extracted resources. The JSON schema validation adds another layer of complexity. The task requires careful handling of document structure while maintaining references to external resources."
+    },
+    {
+      "taskId": 4,
+      "taskTitle": "데이터 모델 및 스키마 설계",
+      "complexityScore": 6,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Break down the data model and schema design task into subtasks covering document/paragraph JSON schema definition, resource metadata schema design, extensibility considerations, vector DB storage model design, and schema versioning strategy. Include specific schema requirements and compatibility considerations for each component.",
+      "reasoning": "This task focuses on designing data structures rather than implementation. While technically complex, it's more contained than implementation tasks. The schema needs to accommodate various document types, resources, and metadata while ensuring extensibility and compatibility with vector databases."
+    },
+    {
+      "taskId": 5,
+      "taskTitle": "벡터 임베딩 모듈 개발",
+      "complexityScore": 8,
+      "recommendedSubtasks": 6,
+      "expansionPrompt": "Divide the vector embedding module development into detailed subtasks covering embedding model selection and integration, text preprocessing pipeline, batch processing optimization, embedding caching mechanisms, quality evaluation metrics, and integration with the document processing pipeline. Include performance requirements and evaluation criteria.",
+      "reasoning": "This task involves complex ML model integration, optimization for performance, and quality evaluation. The embedding process is critical for search quality and requires careful tuning. Batch processing and caching add technical complexity for handling large document collections efficiently."
+    },
+    {
+      "taskId": 6,
+      "taskTitle": "벡터 DB 업로더 개발",
+      "complexityScore": 7,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Create detailed subtasks for the vector DB uploader development, including DB client implementation for multiple vector databases, index creation and management, vector and metadata upload logic, batch processing with retry mechanisms, and upload verification systems. Include performance requirements and error handling specifications.",
+      "reasoning": "This task requires integration with external vector database systems, handling large batch uploads, implementing retry logic, and ensuring data integrity. The complexity comes from managing potentially large datasets and ensuring reliable uploads with proper error handling and verification."
+    },
+    {
+      "taskId": 7,
+      "taskTitle": "검색 API 개발",
+      "complexityScore": 7,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Break down the search API development into detailed subtasks covering API endpoint implementation, query embedding and vector search logic, result post-processing and formatting, highlighting and resource reference linking, and search caching/optimization. Include API specifications, performance requirements, and response format details.",
+      "reasoning": "This task involves creating a performant search API that connects to the vector database, processes queries, and returns formatted results. The complexity includes query processing, vector search, result highlighting, and optimization for response time. The API needs to handle various query types and return well-structured results."
+    },
+    {
+      "taskId": 8,
+      "taskTitle": "프론트엔드 검색 UI 개발",
+      "complexityScore": 6,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Divide the frontend search UI development into detailed subtasks covering search interface components, search results rendering, highlighting and resource display, responsive design implementation, and API integration with state management. Include UI/UX specifications, accessibility requirements, and responsive design guidelines.",
+      "reasoning": "This task focuses on frontend development with React components for search functionality. While technically involved, the complexity is moderate as it builds on established frontend patterns. The main challenges are in results rendering, responsive design, and proper state management for search operations."
+    },
+    {
+      "taskId": 9,
+      "taskTitle": "리소스 렌더링 모듈 개발",
+      "complexityScore": 7,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Create detailed subtasks for the resource rendering module development, including equation rendering with MathJax, table rendering from CSV/JSON to HTML, image rendering with optimization, resource loading and caching strategies, and responsive resource display implementation. Include rendering specifications and performance requirements for each resource type.",
+      "reasoning": "This task requires specialized rendering for different resource types (equations, tables, images) with different technical approaches. MathJax integration for equations, table structure preservation, and image optimization all present unique challenges. The responsive display and caching strategies add additional complexity."
+    },
+    {
+      "taskId": 10,
+      "taskTitle": "자동화 파이프라인 개발",
+      "complexityScore": 9,
+      "recommendedSubtasks": 7,
+      "expansionPrompt": "Break down the automation pipeline development into detailed subtasks covering pipeline workflow design, file change detection mechanisms, step-by-step processing with error recovery, logging and monitoring systems, parallel processing optimization, pipeline testing, and deployment strategy. Include system architecture specifications and performance requirements.",
+      "reasoning": "This task integrates all previous components into a cohesive automated pipeline, making it one of the most complex tasks. It requires orchestrating multiple processes, handling errors across the entire pipeline, implementing monitoring, and optimizing for performance. The pipeline must be robust enough to handle various edge cases and recover from failures."
+    },
+    {
+      "taskId": 11,
+      "taskTitle": "에러 검증 및 피드백 시스템 개발",
+      "complexityScore": 7,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Divide the error validation and feedback system development into detailed subtasks covering automatic validation rules implementation, error reporting and classification, user feedback collection UI, feedback processing workflow, and quality metrics dashboard. Include validation rule specifications, feedback data models, and quality measurement criteria.",
+      "reasoning": "This task combines backend validation logic with frontend feedback collection and processing workflows. The complexity comes from designing comprehensive validation rules, creating usable feedback interfaces, and implementing processes to incorporate feedback into system improvements. The quality metrics add another dimension of complexity."
+    },
+    {
+      "taskId": 12,
+      "taskTitle": "API 서비스 및 문서화",
+      "complexityScore": 6,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Create detailed subtasks for the API service and documentation work, including RESTful API endpoint design, authentication and authorization implementation, request/response schema definition, API documentation generation with Swagger/OpenAPI, and usage examples/tutorials creation. Include API security requirements and documentation standards.",
+      "reasoning": "This task focuses on exposing the system functionality through well-designed APIs and creating comprehensive documentation. While it requires careful design and implementation of authentication, the technical complexity is moderate as it builds on established API patterns and documentation tools."
+    }
+  ]
+}
