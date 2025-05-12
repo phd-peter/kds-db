@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VectorRecord",
+  "type": "object",
+  "properties": {
+    "doc_id": {
+      "type": "string",
+      "description": "문서 고유 ID (예: 파일명)"
+    },
+    "para_id": {
+      "type": "string",
+      "description": "문단 고유 ID (doc_id+순번)"
+    },
+    "type": {
+      "type": "string",
+      "description": "문단 유형 (header, paragraph, glossary 등)"
+    },
+    "level": {
+      "type": ["integer", "null"],
+      "description": "헤더의 계층(level). type이 'header'일 때만 사용"
+    },
+    "text": {
+      "type": "string",
+      "description": "본문 텍스트 (임베딩 대상)"
+    },
+    "term": {
+      "type": ["string", "null"],
+      "description": "용어 정의일 경우 용어명, 일반 문단은 null"
+    },
+    "equations": {
+      "type": ["array", "null"],
+      "description": "문단에 포함된 수식 리소스 참조 목록",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "description": "수식 고유 ID" },
+          "latex": { "type": "string", "description": "수식 LaTeX 표현식 (인라인 수식인 경우)" },
+          "position": { "type": "integer", "description": "문단 내 위치 순서" }
+        },
+        "required": ["id"]
+      }
+    },
+    "tables": {
+      "type": ["array", "null"],
+      "description": "문단에 포함된 표 리소스 참조 목록",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "description": "표 고유 ID" },
+          "caption": { "type": "string", "description": "표 제목" },
+          "csv_path": { "type": "string", "description": "CSV 파일 경로" },
+          "position": { "type": "integer", "description": "문단 내 위치 순서" }
+        },
+        "required": ["id"]
+      }
+    },
+    "images": {
+      "type": ["array", "null"],
+      "description": "문단에 포함된 이미지 리소스 참조 목록",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "description": "이미지 고유 ID" },
+          "caption": { "type": "string", "description": "이미지 캡션" },
+          "path": { "type": "string", "description": "이미지 파일 경로" },
+          "position": { "type": "integer", "description": "문단 내 위치 순서" }
+        },
+        "required": ["id"]
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "확장 메타데이터 (생성일, 태그, 출처 등)",
+      "additionalProperties": true
+    },
+    "vector": {
+      "type": "array",
+      "items": { "type": "number" },
+      "description": "임베딩 벡터 (DB 저장 시 자동 생성)",
+      "minItems": 1
+    }
+  },
+  "required": ["doc_id", "para_id", "type", "text"],
+  "additionalProperties": false
+} 
