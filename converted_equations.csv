@@ -1,0 +1,319 @@
+변환 전,변환 후 (with $...$)
+a,$a$
+A_ch,$A_ch$
+A_g,$A_g$
+A_s,$A_s$
+"A_{ s,` min}","$A_{s,min}$"
+A _{shl},$A_{shl}$
+A _{shs},$A_{shs}$
+A _{sp},$A_{sp}$
+A_st,$A_st$
+A_1,$A_1$
+A_2,$A_2$
+b,$b$
+b _{c`max},$b_{cmax}$
+b _{c`min},$b_{cmin}$
+b _{cl},$b_{cl}$
+b _{cs},$b_{cs}$
+b _{i},$b_{i}$
+b_w,$b_w$
+c,$c$
+c_c,$c_c$
+C_m,$C_m$
+d,$d$
+d _{c},$d_{c}$
+e_min,$e_min$
+E_c,$E_c$
+E_s,$E_s$
+EI,$EI$
+f _{c},$f_{c}$
+f  _{ck},$f_{ck}$
+"f _{ck,c}","$f_{ck,c}$"
+f _{c2},$f_{c2}$
+f_s,$f_s$
+f_y,$f_y$
+f_yt,$f_yt$
+f _{yh},$f_{yh}$
+h,$h$
+I,$I$
+I_g,$I_g$
+I_se,$I_se$
+k,$k$
+l,$l$
+l_c,$l_c$
+l_n,$l_n$
+l_u,$l_u$
+M_c,$M_c$
+M _{cr},$M_{cr}$
+M _{n},$M_{n}$
+M_s,$M_s$
+M_u,$M_u$
+M_1,$M_1$
+M_1ns,$M_1ns$
+M_1,$M_1$
+M_1s,$M_1s$
+M_1,$M_1$
+M_2,$M_2$
+"M_{2,`min}","$M_{2,min}$"
+M_2,$M_2$
+M_2ns,$M_2ns$
+M_2,$M_2$
+M_2s,$M_2s$
+M_2,$M_2$
+n,$n$
+P_b,$P_b$
+P_c,$P_c$
+P_n,$P_n$
+P_o,$P_o$
+P_u,$P_u$
+Q,$Q$
+r,$r$
+s,$s$
+V_u,$V_u$
+alpha,$\alpha$
+beta,$\beta$
+beta_1,$\beta _1$
+2beta,$2beta$
+beta_dns,$\beta _dns$
+beta_ds,$\beta _ds$
+delta_ns,$\delta _ns$
+delta_s,$\delta _s$
+DELTA_o,$\Delta _o$
+V_u,$V_u$
+varepsilon  _{c},$\varepsilon _{c}$
+varepsilon  _{co},$\varepsilon _{co}$
+"varepsilon  _{co,c}","$\varepsilon _{co,c}$"
+varepsilon  _{cu},$\varepsilon _{cu}$
+"varepsilon  _{cu,c}","$\varepsilon _{cu,c}$"
+varepsilon_t,$\varepsilon _t$
+eta,$\eta$
+kappa _cr,$\kappa _cr$
+rho_s,$\rho _s$
+rho  _{rl},$\rho _{rl}$
+rho  _{r`min},$\rho _{rmin}$
+rho  _{rs},$\rho _{rs}$
+phi,$\phi$
+f  _{y},$f_{y}$
+E_s,$E_s$
+f  _{y},$f_{y}$
+f  _{y},$f_{y}$
+varepsilon   _{cu},$\varepsilon _{cu}$
+f  _{c} = 0.85`f  _{ck}  LEFT [ 1- LEFT ( 1- {varepsilon   _{c}} over {varepsilon   _{co}} RIGHT )  ^{n} RIGHT ],$f_{c}=0.85f_{ck}\left [1-\left (1-\frac{\varepsilon _{c}}{\varepsilon _{co} }\right )^{n}\right ]$
+f  _{c} = 0.85`f  _{ck},$f_{c}=0.85f_{ck}$
+n,$n$
+varepsilon   _{c},$\varepsilon _{c}$
+varepsilon   _{co},$\varepsilon _{co}$
+n,$n$
+varepsilon   _{co},$\varepsilon _{co}$
+varepsilon   _{cu},$\varepsilon _{cu}$
+n,$n$
+varepsilon   _{co},$\varepsilon _{co}$
+varepsilon   _{cu},$\varepsilon _{cu}$
+n=1.2+1.5 LEFT ( {100-f  _{ck}} over {60} RIGHT )  ^{4} ` LEQ `2.0,$n=1.2+1.5\left (\frac{100-f_{ck}}{60} \right )^{4}\leq 2.0$
+"varepsilon   _{co} =0.002+ LEFT ( {f  _{ck} -40} over {100,000} RIGHT ) ` GEQ `0.002","$\varepsilon _{co}=0.002+\left (\frac{f_{ck}-40}{100,000} \right )\geq 0.002$"
+"varepsilon   _{cu} =0.0033- LEFT ( {f  _{ck} -40} over {100,000} RIGHT ) ` LEQ `0.0033","$\varepsilon _{cu}=0.0033-\left (\frac{f_{ck}-40}{100,000} \right )\leq 0.0033$"
+alpha (0.85f  _{ck} ),$\alpha (0.85f_{ck})$
+c,$c$
+beta,$\beta$
+f  _{ck},$f_{ck}$
+n,$n$
+varepsilon  _{co},$\varepsilon _{co}$
+varepsilon  _{cu},$\varepsilon _{cu}$
+alpha,$\alpha$
+beta,$\beta$
+a= beta   _{1} c,$a=\beta _{1}c$
+eta  LEFT ( 0.85f _{ck} RIGHT ),$\eta \left (0.85f_{ck}\right )$
+c,$c$
+eta,$\eta$
+beta_1,$\beta _1$
+f  _{ck},$f_{ck}$
+varepsilon  _{cu},$\varepsilon _{cu}$
+eta,$\eta$
+beta_1,$\beta _1$
+"varepsilon   _{cu,c}","$\varepsilon _{cu,c}$"
+"f  _{c} = 0.85`f  _{ck,c}  LEFT [ 1- LEFT ( 1- {varepsilon   _{c}} over {varepsilon   _{co,c}} RIGHT )  ^{n} RIGHT ]","$f_{c}=0.85f_{ck,c}\left [1-\left (1-\frac{\varepsilon _{c}}{\varepsilon _{co,c} }\right )^{n}\right ]$"
+"f  _{c} = 0.85`f  _{ck,c}","$f_{c}=0.85f_{ck,c}$"
+"f  _{ck,c} =f  _{ck} +3.7f  _{c2}","$f_{ck,c}=f_{ck}+3.7f_{c2}$"
+"varepsilon   _{co,c} = varepsilon   _{co} left(f  _{ck,c} over f  _{ck} right)  ^{2}","$\varepsilon _{co,c}=\varepsilon _{co}\left (f_{ck,c}overf_{ck}\right )^{2}$"
+"varepsilon   _{cu,c} = varepsilon   _{cu} + {0.2f  _{c2}}  overf  _{ck}","$\varepsilon _{cu,c}=\varepsilon _{cu}+{0.2f_{c2}}overf_{ck}$"
+f  _{c2},$f_{c2}$
+f  _{2} `= {1} over {2}  rho   _{s} `f  _{yh} ` LEFT ( 1- {s} over {d  _{s}} RIGHT ),$f_{2}=\frac{1}{2} \rho _{s}f_{yh}\left (1-\frac{s}{d_{s} }\right )$
+= {2A  _{sp} f  _{yh}} over {s`d  _{c}} LEFT ( 1- {s} over {d  _{c}} RIGHT ),$=\frac{2A_{sp}f_{yh}}{sd_{c} }\left (1-\frac{s}{d_{c} }\right )$
+f  _{2} = rho   _{r`min} `f  _{yh} ` LEFT ( 1- {s} over {b  _{cl}} RIGHT ) LEFT ( 1- {s} over {b  _{cs}} RIGHT ) LEFT ( 1- {SIGMA `b  _{i} ^{``2} /6} over {b  _{cl} `b  _{cs}} RIGHT ),$f_{2}=\rho _{rmin}f_{yh}\left (1-\frac{s}{b_{cl} }\right )\left (1-\frac{s}{b_{cs} }\right )\left (1-\frac{\Sigma b_{i}^{2}/6}{b_{cl} b_{cs}}\right )$
+s,$s$
+rho_s,$\rho _s$
+rho_s = {4`A_sp} over {s` d_c },$\rho _s=\frac{4A_sp}{sd_c}$
+rho _{r` m i n},$\rho _{rmin}$
+rho _{rl},$\rho _{rl}$
+rho   _{rs},$\rho _{rs}$
+rho _{rl},$\rho _{rl}$
+rho   _{rs},$\rho _{rs}$
+rho_{rl} = {A_shl} over {s` b_{cs}},$\rho _{rl}=\frac{A_shl}{sb_{cs} }$
+rho_{rs} = {A_shs} over {s` b_{cl}},$\rho _{rs}=\frac{A_shs}{sb_{cl} }$
+b  _{i},$b_{i}$
+SIGMA `b  _{i} ^{``2},$\Sigma b_{i}^{2}$
+b  _{i},$b_{i}$
+f_y,$f_y$
+varepsilon_t,$\varepsilon _t$
+varepsilon_t,$\varepsilon _t$
+varepsilon_t,$\varepsilon _t$
+varepsilon_t,$\varepsilon _t$
+0.10f_ck A_g,$0.10f_ckA_g$
+phiP_n,$phiP_n$
+phi P_{n( max)} `＝ ` 0.85 phi[0.85`` f_ck (A_g －A_st ) ＋ f_y` `A_st ],$\phi P_{n(max)}＝0.85\phi [0.85f_ck(A_g－A_st)＋f_yA_st]$
+phi  P_{n(rm max)} ＝  0.80 phi  [0.85``f_ck (A_g － A_st )＋f_y `A_st ],$\phi P_{n(rmmax)}＝0.80\phi [0.85f_ck(A_g－A_st)＋f_yA_st]$
+phi P_n,$\phi P_n$
+phi P_o~,$\phi P_o~$
+P_u,$P_u$
+M_u,$M_u$
+phi M  _{n}  GEQ 1.2M  _{cr},$\phi M_{n}\geq 1.2M_{cr}$
+M _{cr},$M_{cr}$
+phi M  _{n}  GEQ  {4} over {3} M  _{u},$\phi M_{n}\geq \frac{4}{3} M_{u}$
+s,$s$
+s=375 LEFT ( {kappa_cr } over {f  _{s}} RIGHT )-2.5c_c,$s=375\left (\frac{\kappa _cr}{f_{s} }\right )-2.5c_c$
+s=300 LEFT ( { kappa_cr } over { f_s} RIGHT ),$s=300\left (\frac{\kappa _cr}{f_s} \right )$
+kappa_cr,$\kappa _cr$
+c  _{c},$c_{c}$
+s,$s$
+f_s,$f_s$
+f_s,$f_s$
+f_y,$f_y$
+h,$h$
+h/2,$h/2$
+s,$s$
+c  _{c},$c_{c}$
+l_n,$l_n$
+A_g,$A_g$
+rho_s,$\rho _s$
+rho_s `＝ `0.45 left({A_g} over {A_ch }－ 1 right) {{f_ck}} over {f_yt }~,$\rho _s＝0.45\left (\frac{A_g}{A_ch} －1\right )\frac{{f_ck}}{f_yt} ~$
+f_yt,$f_yt$
+{kl  _{u}} over {r} ` LEQ `22,$\frac{kl_{u}}{r} \leq 22$
+{kl  _{u}} over {r} ` LEQ `34－12(M  _{1} /M  _{2} ),$\frac{kl_{u}}{r} \leq 34－12(M_{1}/M_{2})$
+M_1 / M_2,$M_1/M_2$
+[34-12(M  _{1} /M  _{2} )],$[34-12(M_{1}/M_{2})]$
+l  _{u},$l_{u}$
+r,$r$
+r,$r$
+E_c,$E_c$
+I _{g},$I_{g}$
+I _{g},$I_{g}$
+I _{g},$I_{g}$
+I _{g},$I_{g}$
+I _{g},$I_{g}$
+A _{g},$A_{g}$
+beta_ds,$\beta _ds$
+beta_ds,$\beta _ds$
+Q`＝` {DELTA   _{o}  Sigma P_u`} over {V  _{u} `l  _{c}} `,$Q＝\frac{\Delta _{o}SigmaP_u}{V_{u} l_{c}}$
+Sigma P_u,$SigmaP_u$
+V_u,$V_u$
+DELTA_o,$\Delta _o$
+V_u,$V_u$
+P_u,$P_u$
+M_c,$M_c$
+M_c `＝ ` delta _ns` M_2~,$M_c＝\delta _nsM_2~$
+delta _ns ~＝ ~ C_m over {1－ P_u over {0.75 P_c}}  ` geq `1.0,$\delta _ns~＝~C_mover{1－P_uover{0.75P_c}}\geq 1.0$
+P_c,$P_c$
+P_c `＝ ` {pi ^2 EI} over {(kl_u )^2 },$P_c＝\frac{\pi ^2EI}{(kl_u)^2}$
+EI,$EI$
+EI ``＝  ``{(0.2E_c I_g ＋ E_s I_se )} over {1＋ beta _dns },$EI＝\frac{(0.2E_cI_g＋E_sI_se)}{1＋\beta _dns}$
+EI``＝`` {0.4E  _{c} I  _{g}} over {1＋ beta   _{dns}},$EI＝\frac{0.4E_{c}I_{g}}{1＋\beta _{dns} }$
+beta_dns,$\beta _dns$
+k,$k$
+C  _{m},$C_{m}$
+C_m ``＝ `` 0.6 ＋ 0.4 {M_1 over M_2 },$C_m＝0.6＋0.4{M_1overM_2}$
+M  _{1} `/`M  _{2},$M_{1}/M_{2}$
+C  _{m},$C_{m}$
+M  _{2},$M_{2}$
+"M_{2,min} `＝  `P_u ``e_min ~","$M_{2,min}＝P_ue_min~$"
+e  _{min} `＝`15`＋`0.03`h~,$e_{min}＝15＋0.03h~$
+h,$h$
+"M _{2,`min}","$M_{2,min}$"
+M  _{2},$M_{2}$
+C  _{m},$C_{m}$
+M  _{1},$M_{1}$
+M  _{2},$M_{2}$
+M_1,$M_1$
+M_2,$M_2$
+M_2,$M_2$
+P_u,$P_u$
+M  _{1} ``＝``M  _{1ns} ＋ delta   _{s} `M  _{1s~},$M_{1}＝M_{1ns}＋\delta _{s}M_{1s~}$
+M  _{2} ``＝``M  _{2ns} ＋ delta   _{s} `M  _{2s~},$M_{2}＝M_{2ns}＋\delta _{s}M_{2s~}$
+delta   _{s},$\delta _{s}$
+delta   _{s},$\delta _{s}$
+delta   _{s}`＝` {1} over {1－Q} ` GEQ `1,$\delta _{s}＝\frac{1}{1－Q} \geq 1$
+delta   _{s} ``,$\delta _{s}$
+delta   _{s},$\delta _{s}$
+delta   _{s},$\delta _{s}$
+delta   _{s} ``＝`` {1} over {1－ {SMALLSUM P  _{u}} over {0.75 SMALLSUM P  _{c}}} ` GEQ 1,$\delta _{s}＝\frac{1}{1－\frac{SMALLSUMP_{u} }{0.75SMALLSUMP_{c}}}\geq 1$
+smallsum _{ } ^{ }P_u,$smallsum_{}^{}P_u$
+smallsumP_c,$smallsumP_c$
+P_c,$P_c$
+P_c,$P_c$
+k,$k$
+EI,$EI$
+EI,$EI$
+beta_dns,$\beta _dns$
+beta_ds,$\beta _ds$
+k,$k$
+E  _{c},$E_{c}$
+I,$I$
+phi  (0.85 `f_ck  `A_1 ),$\phi (0.85f_ckA_1)$
+phi left( 0.85 {f_ck} sqrt{{A_2} / {A_1}} right) A_1,$\phi \left (0.85{f_ck}\sqrt {{A_2}/{A_1}}\right )A_1$
+sqrt {{A_2} `/` {A_1} },$\sqrt {{A_2}/{A_1}}$
+e_min,$e_min$
+f  _{ck},$f_{ck}$
+f  _{ps},$f_{ps}$
+f_py,$f_py$
+f_y,$f_y$
+h,$h$
+"M _{u,min}","$M_{u,min}$"
+P_u,$P_u$
+varepsilon_co,$\varepsilon _co$
+"varepsilon_co,c","$\varepsilon _co,c$"
+varepsilon_cu,$\varepsilon _cu$
+"varepsilon_cu,c","$\varepsilon _cu,c$"
+phi _c,$\phi _c$
+phi _m,$\phi _m$
+phi _s,$\phi _s$
+f  _{ck},$f_{ck}$
+f  _{ck},$f_{ck}$
+phi_{c},$\phi _{c}$
+phi_{c} `f  _{ck},$\phi _{c}f_{ck}$
+f  _{y},$f_{y}$
+phi_{s},$\phi _{s}$
+phi_{s} `f  _{y},$\phi _{s}f_{y}$
+f  _{ps},$f_{ps}$
+phi_{s},$\phi _{s}$
+phi_{s} `f  _{ps},$\phi _{s}f_{ps}$
+phi_{s} `f  _{ps},$\phi _{s}f_{ps}$
+phi_{s},$\phi _{s}$
+phi_{s} `f  _{py},$\phi _{s}f_{py}$
+phi  _{c},$\phi _{c}$
+phi  _{s},$\phi _{s}$
+phi  _{m},$\phi _{m}$
+varepsilon   _{cu},$\varepsilon _{cu}$
+"varepsilon   _{cu,c}","$\varepsilon _{cu,c}$"
+varepsilon   _{co},$\varepsilon _{co}$
+"varepsilon   _{co,c}","$\varepsilon _{co,c}$"
+varepsilon   _{co},$\varepsilon _{co}$
+"varepsilon   _{co,c}","$\varepsilon _{co,c}$"
+varepsilon   _{cu},$\varepsilon _{cu}$
+c _{it max}  = {varepsilon   _{cu}} over {varepsilon   _{cu} +  phi_s `varepsilon   _{y}}` d,$c_{itmax}=\frac{\varepsilon _{cu}}{\varepsilon _{cu} +\phi _s\varepsilon _{y}}d$
+phi  _{s} `varepsilon  _{y},$\phi _{s}\varepsilon _{y}$
+varepsilon   _{co},$\varepsilon _{co}$
+P _{do} = phi  _{c} 0.85f _{ck} LEFT ( A _{g} -A _{st} RIGHT ) + phi  _{s} f _{y} A _{st},$P_{do}=\phi _{c}0.85f_{ck}\left (A_{g}-A_{st}\right )+\phi _{s}f_{y}A_{st}$
+phi  _{s} `varepsilon  _{y},$\phi _{s}\varepsilon _{y}$
+varepsilon   _{co},$\varepsilon _{co}$
+varepsilon   _{co},$\varepsilon _{co}$
+P _{do} = phi  _{c} 0.85f _{ck} LEFT ( A _{g} -A _{st} RIGHT ) + phi  _{s}  varepsilon  _{co} E _{s} A _{st},$P_{do}=\phi _{c}0.85f_{ck}\left (A_{g}-A_{st}\right )+\phi _{s}\varepsilon _{co}E_{s}A_{st}$
+varepsilon   _{co},$\varepsilon _{co}$
+varepsilon   _{co},$\varepsilon _{co}$
+e _{min},$e_{min}$
+"M _{u,min}","$M_{u,min}$"
+P _{u},$P_{u}$
+e _{min},$e_{min}$
+h,$h$
+e _{min},$e_{min}$
+h,$h$
+"M _{u,min} =P _{u} e _{min}","$M_{u,min}=P_{u}e_{min}$"
+e _{min} =15+0.03h,$e_{min}=15+0.03h$
