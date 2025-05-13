@@ -3,11 +3,11 @@ KDS-DB 벡터화 프로젝트는 법령, 판례 등 KDS 문서를 벡터 DB에 �
 
 # Core Features
 - **HWP → MD 변환**
-  - HWP 파일을 Markdown(.md) 파일로 변환
+- HWP 파일을 Markdown(.md) 파일로 변환
   - 수식, 표, 이미지는 별도 파일로 추출 및 데이터베이스화
 - **MD → JSON 구조화**
   - 변환된 MD 파일을 문서 ID(doc_id), 문단 ID(para_id) 기준으로 분할 및 JSON화
-  - 각 문단별로 본문(text)과 리소스 참조(equations, tables, images) 정보를 포함
+- 각 문단별로 본문(text)과 리소스 참조(equations, tables, images) 정보를 포함
 - **벡터 DB 인덱싱 및 검색**
   - 각 문단의 text를 임베딩하여 벡터 DB에 저장
   - para_id 기준 검색 인덱스, doc_id/para_id로 원문 위치, 하이라이팅, 리소스 참조 가능

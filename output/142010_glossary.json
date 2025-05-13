@@ -1,0 +1,324 @@
+[
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g1",
+    "type": "definition",
+    "term": "$A_{g}$",
+    "text": "전체 단면적, mm2"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g2",
+    "type": "definition",
+    "term": "$b$",
+    "text": "부재의 복부폭 $b_{w}$와 내민 플랜지의 유효길이를 합한 길이, mm"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g3",
+    "type": "definition",
+    "term": "$b_{w}$",
+    "text": "플랜지가 있는 부재의 복부폭, mm"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g4",
+    "type": "definition",
+    "term": "$D$",
+    "text": "고정하중 또는 이에 의해서 생기는 단면력"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g5",
+    "type": "definition",
+    "term": "$d$",
+    "text": "단면의 유효깊이, mm"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g6",
+    "type": "definition",
+    "term": "$d'$",
+    "text": "압축연단에서 압축철근의 도심까지 거리, mm"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g7",
+    "type": "definition",
+    "term": "$E$",
+    "text": "지진하중 또는 그에 의해서 생기는 단면력"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g8",
+    "type": "definition",
+    "term": "$E_{c}$",
+    "text": "콘크리트의 할선탄성계수, MPa"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g9",
+    "type": "definition",
+    "term": "$E_{ci}$",
+    "text": "콘크리트의 초기접선탄성계수, MPa"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g10",
+    "type": "definition",
+    "term": "$E_{ps}$",
+    "text": "긴장재의 탄성계수, MPa"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g11",
+    "type": "definition",
+    "term": "$E_{s}$",
+    "text": "철근의 탄성계수, MPa"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g12",
+    "type": "definition",
+    "term": "$E_{ss}$",
+    "text": "형강의 탄성계수, MPa"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g13",
+    "type": "definition",
+    "term": "$F$",
+    "text": "유체의 밀도를 알 수 있고, 저장 유체의 높이를 조절할 수 있는 유체의 중량 및 압력에 의한 하중 또는 이에 의해서 생기는 단면력"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g14",
+    "type": "definition",
+    "term": "$f_{ci}$",
+    "text": "프리스트레스를 도입할 때의 콘크리트 압축강도, MPa"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g15",
+    "type": "definition",
+    "term": "$f_{ck}$",
+    "text": "콘크리트의 설계기준압축강도, MPa"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g16",
+    "type": "definition",
+    "term": "$f_{cm}$",
+    "text": "콘크리트의 평균 압축강도, MPa"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g17",
+    "type": "definition",
+    "term": "$f_{pe}$",
+    "text": "긴장재의 유효프리스트레스 응력, MPa"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g18",
+    "type": "definition",
+    "term": "$f_{sp}$",
+    "text": "콘크리트의 쪼갬인장강도, MPa"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g19",
+    "type": "definition",
+    "term": "$f_{y}$",
+    "text": "철근의 설계기준항복강도, MPa"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g20",
+    "type": "definition",
+    "term": "$H_{h}$",
+    "text": "흙, 지하수 또는 기타 재료의 횡압력에 의한 수평방향 하중 또는 이에 의해서 생기는 단면력"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g21",
+    "type": "definition",
+    "term": "$H_{v}$",
+    "text": "흙, 지하수 또는 기타 재료의 자중에 의한 연직방향 하중 또는 이에 의해서 생기는 단면력"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g22",
+    "type": "definition",
+    "term": "$h$",
+    "text": "부재의 전체 두께, mm"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g23",
+    "type": "definition",
+    "term": "$I$",
+    "text": "충격 또는 이에 의해서 생기는 단면력"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g24",
+    "type": "definition",
+    "term": "$l_{n}$",
+    "text": "부재의 순경간"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g25",
+    "type": "definition",
+    "term": "$L$",
+    "text": "활하중 또는 이에 의해서 생기는 단면력"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g26",
+    "type": "definition",
+    "term": "$L_{r}$",
+    "text": "지붕활하중 또는 이에 의해서 생기는 단면력"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g27",
+    "type": "definition",
+    "term": "$m_{c}$",
+    "text": "콘크리트의 단위용적질량, kg/m3"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g28",
+    "type": "definition",
+    "term": "$P_{b}$",
+    "text": "균형상태에서 공칭축강도"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g29",
+    "type": "definition",
+    "term": "$P_{n}$",
+    "text": "주어진 편심에서 공칭축강도"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g30",
+    "type": "definition",
+    "term": "$R$",
+    "text": "강우하중 또는 이에 의해서 생기는 단면력"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g31",
+    "type": "definition",
+    "term": "$S$",
+    "text": "적설하중 또는 이에 의해서 생기는 단면력"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g32",
+    "type": "definition",
+    "term": "$T$",
+    "text": "온도, 크리프, 건조수축 및 부등침하의 영향 등에 의해서 생기는 단면력"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g33",
+    "type": "definition",
+    "term": "$t_{f}$",
+    "text": "플랜지의 두께"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g34",
+    "type": "definition",
+    "term": "$U$",
+    "text": "계수하중 또는 이에 의해서 생기는 단면에서 저항하여야 할 소요강도"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g35",
+    "type": "definition",
+    "term": "$V_{c}$",
+    "text": "콘크리트에 의한 부재 단면의 공칭전단강도"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g36",
+    "type": "definition",
+    "term": "$w_{u}$",
+    "text": "계수분포하중"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g37",
+    "type": "definition",
+    "term": "$W$",
+    "text": "풍하중 또는 이에 의해서 생기는 단면력"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g38",
+    "type": "definition",
+    "term": "$\\lambda$",
+    "text": "경량콘크리트 계수"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g39",
+    "type": "definition",
+    "term": "$\\alpha _H$",
+    "text": "토피 두께의 연직방향 하중 $H_v$에 대한 보정계수"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g40",
+    "type": "definition",
+    "term": "$\\beta _1$",
+    "text": "콘크리트 강도에 따른 중립축 위치에 관련된 계수. KDS 14 20 20(4.1.1(7)③) 참조"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g41",
+    "type": "definition",
+    "term": "$\\varepsilon _t$",
+    "text": "공칭축강도에서 최외단 인장철근의 순인장변형률:유효프리스트레스 힘, 크리프, 건조수축 및 온도에 의한 변형률은 제외함"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g42",
+    "type": "definition",
+    "term": "$\\varepsilon _y$",
+    "text": "철근의 설계기준 항복변형률"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g43",
+    "type": "definition",
+    "term": "$\\phi$",
+    "text": "강도감소계수"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g44",
+    "type": "definition",
+    "term": "$\\rho$",
+    "text": "인장철근비"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g45",
+    "type": "definition",
+    "term": "$\\rho$",
+    "text": "압축철근비"
+  },
+  {
+    "doc_id": "142010",
+    "para_id": "142010_g46",
+    "type": "definition",
+    "term": "$\\rho _b$",
+    "text": "균형철근비"
+  }
+]
